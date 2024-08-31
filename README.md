@@ -53,7 +53,7 @@ Abra o arquivo index.html em um navegador para visualizar a página inicial e ex
 - Relatórios e Gráficos: Visualize gráficos e dados fictícios, com opções para imprimir e exportar os dados para CSV.
 
 **Licença**
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Este projeto está licenciado sob a Licença [MIT License](LICENSE). Veja o arquivo LICENSE para mais detalhes.
 
 **Contribuições**
 Contribuições são bem-vindas! Se você deseja contribuir para o projeto, por favor, faça um fork do repositório e envie um pull request com suas alterações.
@@ -73,3 +73,5 @@ Se você tiver dúvidas ou sugestões, entre em contato com o mantenedor do proj
 3. **Licença**: Se não estiver usando a Licença MIT ou qualquer outra licença específica, ajuste a seção de licença conforme necessário.
 
 Esse README fornece uma visão geral completa do projeto, facilitando a compreensão e o uso do sistema por outros desenvolvedores e usuários.
+
+## Autor: [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/levilucena/)](https://www.linkedin.com/in/levilucena/)
