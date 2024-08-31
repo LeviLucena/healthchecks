@@ -2,6 +2,8 @@
 
 Este projeto é um sistema web desenvolvido com **Bootstrap 3** e **Chart.js** para gerenciamento de clientes e relatórios de health check. A aplicação permite cadastrar e consultar clientes, cadastrar e consultar health checks, além de gerar relatórios e gráficos para análise.
 
+![image](https://github.com/user-attachments/assets/bd10edc3-2cc3-4006-8971-f7dff19b3993)
+
 ## Funcionalidades
 
 - **Página Inicial**: Exibe quadros que direcionam para páginas de cadastro e consulta de clientes e health checks.
