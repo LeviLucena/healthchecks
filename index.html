@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- ====================================================================== -->
+<!-- Desenvolvido por Levi Lucena - linkedin.com/in/levilucena -->
+<!-- ====================================================================== -->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f8f8;
+            margin-top: 50px;
+        }
+        .container {
+            text-align: center;
+        }
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card-icon {
+            font-size: 50px;
+            color: #337ab7;
+            margin-bottom: 15px;
+        }
+        .card-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <a href="cadastrar_clientes.html">
+                    <div class="card">
+                        <span class="glyphicon glyphicon-user card-icon"></span>
+                        <h3 class="card-title">Cadastrar Clientes</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6">
+                <a href="consultar_clientes.html">
+                    <div class="card">
+                        <span class="glyphicon glyphicon-list-alt card-icon"></span>
+                        <h3 class="card-title">Consultar Clientes</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <a href="cadastrar_health_check.html">
+                    <div class="card">
+                        <span class="glyphicon glyphicon-edit card-icon"></span>
+                        <h3 class="card-title">Cadastrar Health Check</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6">
+                <a href="consultar_health_check.html">
+                    <div class="card">
+                        <span class="glyphicon glyphicon-check card-icon"></span>
+                        <h3 class="card-title">Consultar Health Check</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <a href="relatorios.html">
+                    <div class="card">
+                        <span class="glyphicon glyphicon-stats card-icon"></span>
+                        <h3 class="card-title">Relatórios e Gráficos</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

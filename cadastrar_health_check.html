@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- ====================================================================== -->
+<!-- Desenvolvido por Levi Lucena - linkedin.com/in/levilucena -->
+<!-- ====================================================================== -->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cadastro de Health Check</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f8f8;
+            margin-top: 50px;
+        }
+        .container {
+            max-width: 800px;
+        }
+        .form-container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-title {
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: bold;
+            color: #337ab7;
+        }
+        .form-group label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2 class="form-title">Cadastro de Health Check</h2>
+            <form id="healthCheckForm">
+                <div class="form-group">
+                    <label for="areaMapeamento">Área Mapeamento</label>
+                    <input type="text" class="form-control" id="areaMapeamento" name="areaMapeamento" required>
+                </div>
+                <div class="form-group">
+                    <label for="codigo">Código</label>
+                    <input type="text" class="form-control" id="codigo" name="codigo" required>
+                </div>
+                <div class="form-group">
+                    <label for="caracteristica">Características</label>
+                    <input type="text" class="form-control" id="caracteristica" name="caracteristica" required>
+                </div>
+                <div class="form-group">
+                    <label for="resposta">Resposta</label>
+                    <input type="text" class="form-control" id="resposta" name="resposta" required>
+                </div>
+                <div class="form-group">
+                    <label for="versao">Versão</label>
+                    <input type="text" class="form-control" id="versao" name="versao" required>
+                </div>
+                <div class="form-group">
+                    <label for="unidadeMedida">Unidade de Medida</label>
+                    <input type="text" class="form-control" id="unidadeMedida" name="unidadeMedida" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Salvar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#healthCheckForm').on('submit', function(event) {
+                event.preventDefault();
+                // Aqui você pode adicionar a lógica para enviar os dados para o backend
+                alert('Dados salvos com sucesso!');
+                $(this).trigger('reset'); // Limpa o formulário após submissão
+            });
+        });
+    </script>
+</body>
+</html>
